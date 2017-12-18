@@ -2421,4 +2421,7 @@ input:-ms-input-placeholder {
   .pad-60-print {
     padding: 60px; } }
 
+header {
+  background: #333; }
+
 /*# sourceMappingURL=styles.css.map */
