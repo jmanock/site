@@ -2424,4 +2424,10 @@ input:-ms-input-placeholder {
 header {
   background: #333; }
 
+.banner-wrapper {
+  background: url("../hero-area.jpg");
+  overflow: hidden;
+  background-size: cover;
+  position: relative; }
+
 /*# sourceMappingURL=styles.css.map */

@@ -7,6 +7,13 @@
 
 // Import Base Helpers
 @import "base/_helpers";
+
 header{
   background:#333;
+}
+.banner-wrapper{
+  background:url('../hero-area.jpg');
+  overflow:hidden;
+  background-size:cover;
+  position:relative;
 }
