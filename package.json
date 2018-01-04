@@ -1,57 +1,44 @@
 {
-  "name": "getbase",
-  "version": "3.5.1",
-  "description": "A Rock Solid, Responsive HTML/CSS Framework built to work on all devices big and small.",
-  "homepage": "http://getbase.org/",
-  "scripts": {
-    "start": "gulp",
-    "less": "gulp less",
-    "sass": "gulp sass",
-    "clean": "gulp clean",
-    "build": "gulp build",
-    "dist": "gulp build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/matthewhartman/base.git"
-  },
-  "authors": [
-    "Matthew Hartman <matthewhartmanau@gmail.com>"
-  ],
-  "keywords": [
-    "css",
-    "scss",
-    "framework",
-    "mobile-first",
-    "lightweight",
-    "responsive"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "private": true,
   "engines": {
-    "node": ">=4.0.0",
-    "npm": ">=2.0.0"
+    "node": ">=4"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-notify": "^3.0.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.0",
-    "gulp-less": "^3.3.2",
-    "del": "^2.2.2",
-    "run-sequence": "^1.2.2"
+    "babel-core": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.5.2",
+    "browser-sync": "^2.2.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-babel": "^6.1.1",
+    "gulp-cache": "^0.4.2",
+    "gulp-cssnano": "^2.0.0",
+    "gulp-eslint": "^3.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-plumber": "^1.0.1",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.0.0",
+    "main-bower-files": "^2.5.0",
+    "run-sequence": "^1.2.2",
+    "wiredep": "^4.0.0"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "Firefox ESR"
-  ]
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+    },
+    "rules": {
+      "quotes": [
+        2,
+        "single"
+      ]
+    }
+  }
 }
