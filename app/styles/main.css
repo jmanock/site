@@ -12,7 +12,6 @@ section{
   height:100vh;
   width:100%;
   display:table;
-  max-width:none;
 }
 .menu-btn{
   display:block;
@@ -25,7 +24,7 @@ section{
 }
 .menu-btn:before, .menu-btn:after{
   background-color:#fff;
-  content:'';
+  content:' ';
   display:block;
   height:4px;
   transition:all 200ms ease-in-out;
@@ -38,7 +37,7 @@ section{
   overflow:hidden;
 }
 #header{
-  padding:30px 30px 30px 80px;
+  /* padding:30px 30px 30px 80px; */
   -moz-transition:all 200ms ease-in;
   -webkit-transition:all 200ms ease-in;
   -o-transition:all 200ms ease-in;
@@ -62,7 +61,7 @@ nav ul{
   padding:0;
   margin:0;
   list-style:none;
-  background:#222;
+  background:#333;
   overflow:hidden;
 }
 nav li{
@@ -73,10 +72,10 @@ nav a{
   font-size:1em;
   text-decoration:none;
   display:block;
-  padding:12px 15px;
+  padding:12px 12px;
   font-weight:300;
   letter-spacing:2px;
-  border-bottom:1px solid #333;
+  border-bottom:1px solid #444;
 }
 nav a:hover{
   background:#111;
@@ -87,17 +86,16 @@ label{
   background:transparent;
   width:42px;
   height:42px;
-  color:#fff;
+  color:green;
   text-align:center;
-  font-size:2em;
   position:fixed;
   line-height:1.1em;
   top:10px;
   left:10px;
-  -moz-transition:all 200ms ease-in;
-  -webkit-transition:all 200ms ease-in;
-  -o-transition:all 200ms ease-in;
-  transition:all 200ms ease-in;
+  -moz-transition:all 400ms ease-in;
+  -webkit-transition:all 400ms ease-in;
+  -o-transition:all 400ms ease-in;
+  transition:all 400ms ease-in;
   z-index:400;
 }
 input[type='checkbox']{
@@ -110,10 +108,9 @@ input[type='checkbox']:checked ~ label{
   left:260px;
 }
 input[type='checkbox']:checked ~ section{
-  -webkit-transform:translate3d(260px, 0, 0);
+  -webkit-transform:translate3d(260px,0,0);
   -moz-transform:translate3d(260px,0,0);
   -o-transform:translate3d(260px,0,0);
-  transform:translate3d(260px,0,0);
 }
 .active:before{
   box-shadow:0 0 0 #fff;
@@ -136,7 +133,6 @@ input[type='checkbox']:checked ~ section{
   top:25px;
 }
 #About{
-  background-color:#373b44;
   background-image:none;
 }
 #Works{
@@ -146,18 +142,8 @@ input[type='checkbox']:checked ~ section{
   background-image:none;
 }
 @media(min-width:480px){
-  .nav-list{
-    display:block;
-  }
+
 }
 @media(min-width:760px){
-  .nav-right{
-    position:absolute;
-  }
-  .hidden-xs{
-    display:block;
-  }
-  .visible-xs{
-    display:none;
-  }
+  
 }
