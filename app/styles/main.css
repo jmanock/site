@@ -34,11 +34,11 @@ section{
   box-shadow:0 10px 0 #fff;
   margin-bottom:16px;
 }
-.menu-btn:hover:before{
+.active:before{
   box-shadow:0 0 0 #fff;
   transform:translateY(10px) rotate(45deg);
 }
-.menu-btn:hover:after{
+.active:after{
   transform:translateY(-10px) rotate(-45deg);
 }
 #global-nav{
