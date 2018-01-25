@@ -122,17 +122,22 @@ input[type='checkbox']:checked ~ section{
 .active:after{
   transform:translateY(-10px) rotate(-45deg);
 }
-#title{
+.site-title{
   position:fixed;
-  top:0;
+  top:20px;
   right:25px;
   font-size:2em;
   color:#fff;
+  transition:.5s ease;
+}
+.scrolled{
+  color:orange;
+  font-size:1em;
+  top:25px;
 }
 #About{
   background-color:#373b44;
   background-image:none;
-  padding:20px;
 }
 #Works{
   background-image:none;
