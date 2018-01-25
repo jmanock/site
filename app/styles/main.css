@@ -14,6 +14,33 @@ section{
   display:table;
   max-width:none;
 }
+.menu-btn{
+  display:block;
+  margin:1em;
+  width:36px;
+  position:absolute;
+  top:0;
+  right:0;
+  cursor:pointer;
+}
+.menu-btn:before, .menu-btn:after{
+  background-color:#fff;
+  content:'';
+  display:block;
+  height:4px;
+  transition:all 200ms ease-in-out;
+}
+.menu-btn:before{
+  box-shadow:0 10px 0 #fff;
+  margin-bottom:16px;
+}
+.menu-btn:hover:before{
+  box-shadow:0 0 0 #fff;
+  transform:translateY(10px) rotate(45deg);
+}
+.menu-btn:hover:after{
+  transform:translateY(-10px) rotate(-45deg);
+}
 #global-nav{
   position:fixed;
   z-index:20;

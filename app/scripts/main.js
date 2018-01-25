@@ -9,4 +9,7 @@ $(document).ready(function(){
       $('#global-nav').removeClass('scrolled-nav');
     }
   });
+  $('.menu-btn').on('click', function(){
+    
+  });
 });
