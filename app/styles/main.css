@@ -127,12 +127,20 @@ input[type='checkbox']:checked ~ section{
   color:#fff;
   transition:.5s ease;
 }
+.centered{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:3.6em;
+  color:white;
+}
 .scrolled{
   color:orange;
   font-size:1em;
-  top:25px;
+  top:20px;
 }
-#About{
+#Works{
   width:100%;
   height:100vh;
   border:1px solid #eee;
@@ -141,6 +149,7 @@ input[type='checkbox']:checked ~ section{
   overflow:hidden;
   background-color:#08aeea;
   background-image:linear-gradient(110deg, #08aeea 0%, #2af598 100%);
+  z-index:-1;
 }
 .top{
   display:block;
@@ -166,7 +175,7 @@ input[type='checkbox']:checked ~ section{
   background-color:#2af598;
   background-image:linear-gradient(90deg, #07a2d6 0%, #2af598 100%);
 }
-#Works{
+#About{
   background-image:url('../images/random-image3.jpg');
 }
 #Contact{
