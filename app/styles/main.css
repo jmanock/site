@@ -144,7 +144,8 @@ input[type='checkbox']:checked ~ section{
   width:100%;
   height:100vh;
   background-image:none;
-  background-color:gray;
+  background-color:#444;
+  color:white;
 }
 .rapper{
 
@@ -152,6 +153,13 @@ input[type='checkbox']:checked ~ section{
 .rapper img{
   height:200px;
   width:300px;
+}
+.apper img{
+  height:300px;
+}
+.fbimage{
+  height:;
+  width:500px;
 }
 #About{
   background-image:url('../images/random-image3.jpg');
