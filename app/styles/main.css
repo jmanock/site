@@ -148,13 +148,6 @@ input[type='checkbox']:checked ~ section{
   background-color:#444;
   color:white;
 }
-.buttons{
-  text-align:center;
-}
-button{
-  margin-right:100px;
-  cursor:pointer;
-}
 #About{
   background-image:url('../images/random-image3.jpg');
 }
