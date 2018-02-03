@@ -19,6 +19,7 @@ $(document).ready(function(){
       $('.menu-btn').addClass('active');
     }
   });/* End `Click` */
+  
   $('.grid').isotope({
     itemSelector:'.grid-item',
   });
