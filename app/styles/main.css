@@ -201,8 +201,6 @@ li:hover{
 }
 li:active{
   color:#ccc;
-  border:1px solid #ccc;
-  border-radius:15px;
 }
 #about{
   grid-area:about;
