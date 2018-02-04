@@ -214,7 +214,15 @@ li:active{
   color:#fff;
   /* color:grey; */
   /* color:#a6a6a6; */
-  font-size:1.5em;
+}
+#about p{
+  font-size:1.3em;
+  width:500px;
+  background-color:grey;
+}
+span{
+  font-size:1.4em;
+
 }
 #contact{
   grid-area:contact;
