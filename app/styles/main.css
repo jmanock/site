@@ -224,7 +224,8 @@ li:active{
   margin-left:20%;
 }
 #about a{
-  color:#24252a;
+  /* color:#24252a; */
+  color:#000;
   text-decoration:none;
 }
 #about a:hover{
