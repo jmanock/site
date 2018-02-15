@@ -19,7 +19,7 @@ $(document).ready(function(){
       $('.menu-btn').addClass('active');
     }
   });/* End `Click` */
-  
+
   $('.grid').isotope({
     itemSelector:'.grid-item',
   });
@@ -28,5 +28,9 @@ $(document).ready(function(){
     $('.grid').isotope({filter:filterValue});
     $('.filter-button-group li').removeClass('active');
     $(this).addClass('active');
+  });
+  $('.image').wrap("<div class='alt-wrap'/>");
+  $('.image').each(function(){
+    $(this).after('<p class="alt">' + $(this).attr('alt')+'</p>');
   });
 });/* End `Ready` */
