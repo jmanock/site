@@ -294,7 +294,16 @@ footer p{
   color:#fff;
 }
 
-@media(min-width:480px){
+@media(min-width:380px){
+  .grid-container{
+    display:grid;
+    grid-template-areas:
+    'header'
+    'works'
+    'about'
+    'contact'
+    'footer';
+  }
 
 }
 @media(min-width:760px){
